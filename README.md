@@ -3,7 +3,7 @@ React generator of Components, styles and custom hooks
 
 ## Install
 * Run 
-`npm i -g`  
+`npm i -g https://github.com/gustavom12/ReactCliGenerator.git`  
 
 ## Generate Component
 * Run
