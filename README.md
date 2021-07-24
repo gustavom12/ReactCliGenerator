@@ -3,14 +3,18 @@ React generator of Components, styles and custom hooks
 
 ## Install
 * Run 
-npm i -g  
+`npm i -g`  
 
 ## Generate Component
 * Run
-react-cli c <src/NameOfComponent> [extension]
+`react-cli c <src/NameOfComponent> [extension]`
+
+### Options
+* Skip styles file
+--skip-styles
 
 ### Example
-react-cli c components/Header .tsx
+`react-cli c components/Header .tsx`
 
 ### Example output
 ```javascript
@@ -27,14 +31,10 @@ export default Header
 
 ## Generate custom Hooks
 * Run
-react-cli c <src/NameOfCustomHook> [extension]
-
-### Options
-* Skip styles file
---skip-styles
+`react-cli c <src/NameOfCustomHook> [extension]`
 
 ### Example
-react-cli h hooks/useCustomHook .ts
+`react-cli h hooks/useCustomHook .ts`
 
 ### Example output
 ```javascript
