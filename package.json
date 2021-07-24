@@ -2,15 +2,14 @@
   "name": "react-cli",
   "version": "0.0.1",
   "description": "generator of react components, hooks, styles, etc",
-  "main": "bin/index.js",
-  "author": "",
+  "author": "Gustavo Mercado",
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
-    "react c": "./bin/index.js"
+    "react-cli": "./bin/index.js"
   },
   "dependencies": {
     "caporal": "^1.4.0",
-    "commander": "^8.0.0"
+    "esm": "^3.2.25"
   }
 }
